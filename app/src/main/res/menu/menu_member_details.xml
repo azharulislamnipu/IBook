@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sd.ibook.MemberDetailsActivity">
+
+
+
+    <item android:id="@+id/editNotes" android:title="Edit"
+        android:orderInCategory="100" app:showAsAction="never"
+        android:icon="@drawable/symbol_edit"/>
+
+    <item android:id="@+id/deleteNote" android:title="Delete"
+        android:orderInCategory="101" app:showAsAction="never"
+        android:icon="@drawable/symbol_delete"/>
+
+    <item android:id="@+id/call" android:title="Call"
+        android:orderInCategory="101" app:showAsAction="always"
+        android:icon="@drawable/call_icon4"/>
+    <item android:id="@+id/sms" android:title="Sms"
+        android:orderInCategory="101" app:showAsAction="always"
+        android:icon="@drawable/sms"/>
+
+    <item android:id="@+id/email" android:title="Email"
+        android:orderInCategory="101" app:showAsAction="always"
+        android:icon="@drawable/email"/>
+
+    <item android:id="@+id/share" android:title="Share"
+        android:orderInCategory="101" app:showAsAction="always"
+        android:icon="@drawable/share_icon"
+        android:actionProviderClass="android.widget.shareActionProvider"/>
+
+</menu>
